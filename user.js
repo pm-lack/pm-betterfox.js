@@ -258,6 +258,14 @@ user_pref("extensions.postDownloadThirdPartyPrompt", false);
 user_pref("privacy.spoof_english", 1);
 user_pref("network.http.referer.spoofSource", false);
 
+/** ZEN TWEAKS ***/
+user_pref("zen.theme.border-radius", 0);
+user_pref("zen.view.experimental-rounded-view", false);
+user_pref("zen.view.show-newtab-button-top", false);
+user_pref("zen.view.sidebar-expanded", false);
+user_pref("zen.workspaces.show-workspace-indicator", false);
+user_pref("browser.tabs.allow_transparent_browser", false);
+
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
