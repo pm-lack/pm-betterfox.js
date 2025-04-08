@@ -214,6 +214,50 @@ user_pref("browser.menu.showViewImageInfo", true);
 user_pref("findbar.highlightAll", true);
 user_pref("layout.word_select.eat_space_to_next_word", false);
 
+/** ARKEN TWEAKS ***/
+user_pref("browser.newtabpage.enabled", false);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("browser.newtabpage.activity-stream.default.sites", "");
+user_pref("geo.provider.ms-windows-location", false);
+user_pref("geo.provider.use_corelocation", false);
+user_pref("geo.provider.use_geoclue", false);
+user_pref("browser.shopping.experience2023.enabled", false);
+user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
+user_pref("network.http.speculative-parallel-limit", 0);
+user_pref("browser.places.speculativeConnect.enabled", false);
+user_pref("network.proxy.socks_remote_dns", true);
+user_pref("network.file.disable_unc_paths", true);
+user_pref("network.gio.supported-protocols", "");
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
+user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
+user_pref("browser.urlbar.addons.featureGate", false);
+user_pref("browser.urlbar.fakespot.featureGate", false);
+user_pref("browser.urlbar.mdn.featureGate", false);
+user_pref("browser.urlbar.pocket.featureGate", false);
+user_pref("browser.urlbar.weather.featureGate", false);
+user_pref("browser.urlbar.yelp.featureGate", false);
+user_pref("browser.sessionstore.privacy_level", 2);
+user_pref("toolkit.winRegisterApplicationRestart", false);
+user_pref("security.ssl.require_safe_negotiation", true);
+user_pref("dom.security.https_only_mode", true);
+user_pref("dom.security.https_only_mode_send_http_background_request", false);
+user_pref("privacy.userContext.enabled", true);
+user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
+user_pref("media.peerconnection.ice.default_address_only", true);
+user_pref("devtools.debugger.remote-enabled", false);
+user_pref("pdfjs.disabled", false);
+user_pref("browser.contentanalysis.enabled", false);
+user_pref("browser.contentanalysis.default_result", 0);
+user_pref("browser.download.useDownloadDir", false);
+user_pref("browser.download.alwaysOpenPanel", false);
+user_pref("browser.download.manager.addToRecentDocs", false);
+user_pref("browser.download.always_ask_before_handling_new_types", true);
+user_pref("extensions.postDownloadThirdPartyPrompt", false);
+user_pref("privacy.spoof_english", 1);
+user_pref("network.http.referer.spoofSource", false);
+
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
