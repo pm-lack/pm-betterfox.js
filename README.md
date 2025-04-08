@@ -1,3 +1,6 @@
+## pm-betterfox.js
+Betterfox with some added lines from [Arkenfox](https://github.com/arkenfox/user.js) and [Zen-Browser](https://zen-browser.app/) config.
+
 ## Install
 0) Create a [backup profile](https://github.com/yokoffing/Betterfox/wiki/Backup).
 1) Download the user.js file [here](https://raw.githubusercontent.com/pm-lack/pm-betterfox.js/refs/heads/main/user.js) (Right click > `Save Link As…`).
