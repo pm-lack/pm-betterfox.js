@@ -1,5 +1,5 @@
 ## pm-betterfox.js
-Betterfox with some added lines from [Arkenfox](https://github.com/arkenfox/user.js) and [Zen-Browser](https://zen-browser.app/) config.
+[Betterfox](https://github.com/yokoffing/Betterfox) with some added lines from [Arkenfox](https://github.com/arkenfox/user.js) and [Zen-Browser](https://zen-browser.app/) config.
 
 ## Install
 0) Create a [backup profile](https://github.com/yokoffing/Betterfox/wiki/Backup).
