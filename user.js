@@ -282,14 +282,6 @@ user_pref("extensions.postDownloadThirdPartyPrompt", false);
 user_pref("privacy.spoof_english", 1);
 user_pref("network.http.referer.spoofSource", false);
 
-/** ZEN TWEAKS ***/
-user_pref("zen.theme.border-radius", 0);
-user_pref("zen.view.experimental-rounded-view", false);
-user_pref("zen.view.show-newtab-button-top", false);
-user_pref("zen.view.sidebar-expanded", false);
-user_pref("zen.workspaces.show-workspace-indicator", false);
-user_pref("browser.tabs.allow_transparent_browser", false);
-
 /** NATURAL SMOOTH SCROLLING V3 ***/
 user_pref("apz.overscroll.enabled", true);
 user_pref("general.smoothScroll", true);
@@ -305,6 +297,11 @@ user_pref("general.smoothScroll.currentVelocityWeighting", "1");
 user_pref("general.smoothScroll.stopDecelerationWeighting", "1");
 user_pref("mousewheel.default.delta_multiplier_y", 300);
 user_pref("mousewheel.min_line_scroll_amount", 10);
+
+/** BUTTERBIAN ADDITIONS ***/
+user_pref("signon.autofillForms", false);
+user_pref("pdfjs.defaultZoomValue", "page-width");
+user_pref("browser.firefox-view.feature-tour", "{\"screen\":\"\",\"complete\":true}");
 
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
