@@ -266,6 +266,22 @@ user_pref("zen.view.sidebar-expanded", false);
 user_pref("zen.workspaces.show-workspace-indicator", false);
 user_pref("browser.tabs.allow_transparent_browser", false);
 
+/** NATURAL SMOOTH SCROLLING V3 ***/
+user_pref("apz.overscroll.enabled", true);
+user_pref("general.smoothScroll", true);
+user_pref("general.smoothScroll.mouseWheel.durationMinMS", 80);
+user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
+user_pref("general.smoothScroll.msdPhysics.enabled", true);
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 600);
+user_pref("general.smoothScroll.msdPhysics.regularSpringConstant", 650);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS", 25);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio", "2");
+user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 250);
+user_pref("general.smoothScroll.currentVelocityWeighting", "1");
+user_pref("general.smoothScroll.stopDecelerationWeighting", "1");
+user_pref("mousewheel.default.delta_multiplier_y", 300);
+user_pref("mousewheel.min_line_scroll_amount", 10);
+
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
